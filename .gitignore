@@ -72,3 +72,64 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Visual Studio
+.vs/
+.vscode/
+.vsconfig
+ipch/
+
+# Rider
+.idea/
+*.iml
+
+# UE specific
+*.uproject
+!*.uproject.*
+*.uproject.local
+*.sln
+*.sln.*
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+x64/
+x86/
+Debug/
+Release/
+Develop/
+Test/
+
+# Intermediate (UE)
+Intermediate/
+Plugins/*/Intermediate/
+# Keep some intermediate files if needed
+!Intermediate/.gitkeep
+
+# Derived Data Cache
+DerivedDataCache/
+PluginMetadata/
+
+# Installed builds
+InstalledBuild/
+!InstalledBuild/*/
+
+# Temp files
+*.tmp
+*.log
+*.lock
+*.pid
+
+# OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Additional UE5
+Script/
+Shaders/
+!Script/*/
+!Shaders/*/
+*.metameta
